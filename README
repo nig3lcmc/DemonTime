@@ -1,0 +1,52 @@
+Motivation:
+As an NUS student living in Hall, we tend to have a whole lot of commitments on our plate. We juggle between school work, submissions, training, meetings, and spending time with family and friends. Oftentimes, we just aren't able to keep track of our schedule, and a Planner like notion does not help because we don't receive reminders from it. Additionally, reminders on reminder apps are usually only sent once, and even then, people like us students generally tend to ignore all the bulk notifications we get, unless they are texts or calls. 
+
+Aim:
+To help students better plan, and be reminded of their events, plans, and deadlines in order to juggle the hectic student life.
+
+User Stories:
+I am someone who tends to sleep often throughout the day and I often miss my plans due to sleeping past it. I want to receive messages about my plans when I'm asleep to wake me up and get me on track.
+
+I am someone who easily forgets about the plans that i have set. Thus i want to be able to receive messages to remind me about what I have to do.
+
+I am someone who is always texting. Planner apps are a pain because I have to keep on checking it to ensure that I have no plans at a certain period. A reminder bot on telegram will save me a lot of hassle in checking for when and what I have scheduled.
+
+Scope of Project:
+To create a text based Planner and Reminder bot on telegram.
+
+Features to be completed by mid-june:
+Add, Remove and Edit events into the Planner
+
+View events in the Planner.
+
+Search events in the Planner.
+
+Features to be Completed by mid-july:
+Add, Remove, and Edit reminders.
+
+View Reminders.
+
+Search Reminders.
+
+Tech Stack:
+Java 
+Python
+
+How are we different from similar platforms?
+Notion
+Notion is a planner bot that sets events by date and time, as well as allowing for additional comments to be inputted about the event. Similarly, our bot will be able to provide those very same features. What makes us different is that our planner is entirely on telegram, making it more likely that a user would view the reminders. This is based off the extreme reliance that students currently have on telegram.
+
+To Do Reminder with Alarm
+To Do Reminder with Alarm is a reminder app where reminders can be set as a notification or an alarm. However, having it set as an alarm would oftentimes cause us to hit snooze and continue on with whatever we were initially doing. Our bot offers text based reminders, in 3 forms, single, multiple, or repeat until acknowledged. The latter would thus force us to turn on the phone, open up telegram and send the bot a specified message in order for the reminder to kill. This is extremely effective in disruption of what we were doing, which is what is crucial in effective reminding.
+
+Development Plan:
+3rd week of May: Finalized pitch for orbital lift-off
+4th week of May: Created mockup created bot template
+5th week of May: Confirmed the final list of tech
+1st week of June: Finalized complete flow of commands and responses
+2nd week of June:Start creating planner portion
+3rd week of June: Continue with planner portion
+4th week of June: Finalize and test planner portion
+1st week of July: Start creating reminder portion
+2nd week of July: continue with reminder portion
+3rd week of july: final tests and debugging
