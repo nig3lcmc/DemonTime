@@ -28,9 +28,12 @@ View Reminders.
 
 Search Reminders.
 
-Tech Stack:
-Java 
+Tech Stack: 
 Python
+Pytz Library
+Telegram API
+FaunaDB
+Heroku
 
 How are we different from similar platforms?
 Notion
