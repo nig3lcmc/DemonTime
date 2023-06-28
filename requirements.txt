@@ -1,7 +1,6 @@
 typing
 pytz
 telegram
-telegram.ext
 faunadb
 faunadb.objects
 faunadb.client
