@@ -1,0 +1,11 @@
+typing
+pytz
+telegram
+telegram.ext
+faunadb
+faunadb.objects
+faunadb.client
+queue
+tokens
+python-telegram-bot
+faunadb

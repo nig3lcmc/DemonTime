@@ -9,11 +9,13 @@ from faunadb.objects import Ref
 from faunadb.client import FaunaClient
 from queue import Queue
 
+from tokens import telebotkey 
+from tokens import faunakey
 
 
-TOKEN: Final = '5880233487:AAFp2_wmkULYQUw8vQ1i0tAOTlZbqG3gcNY'
+TOKEN: Final = telebotkey
 BOT_USERNAME: Final = '@rrememberbot'
-client = FaunaClient(secret = "fnAFEtmWPsAAUXme7DOxbqzQFgq-Cj5cXVx546aR")
+client = FaunaClient(secret = faunakey)
 
 
 async def start_command(update: Update, context: CallbackContext):
@@ -59,7 +61,7 @@ async def add_reminder(update: Update, context: CallbackContext):
     )
     await context.bot.send_message(
         chat_id=chat_id,
-        text="Enter the reminder you want to add along with its due date in this format (mm/dd/yyyy), separated by a comma 😁",
+        text="Enter the reminder you want to add along with its due date in this format (mm/dd/yyyy), separated by a comma 😁\neg. buy eggs,05/23/2023",
     )
 
 
