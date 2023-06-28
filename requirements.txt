@@ -3,4 +3,4 @@ pytz
 telegram
 faunadb
 python-telegram-bot
-
+python-dotenv
