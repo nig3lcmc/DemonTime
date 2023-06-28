@@ -2,7 +2,5 @@ typing
 pytz
 telegram
 faunadb
-queue
-tokens
 python-telegram-bot
 
