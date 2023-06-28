@@ -1,1 +1,1 @@
-worker: testingmilestone2.py
+worker: python testingmilestone2.py
