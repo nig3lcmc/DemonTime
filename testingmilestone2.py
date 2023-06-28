@@ -9,9 +9,6 @@ from faunadb.objects import Ref
 from faunadb.client import FaunaClient
 from queue import Queue
 
-from tokens import telebotkey 
-from tokens import faunakey
-
 
 TOKEN: Final = telebotkey
 BOT_USERNAME: Final = '@rrememberbot'
